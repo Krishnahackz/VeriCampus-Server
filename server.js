@@ -2156,6 +2156,7 @@ app.get(
             return res.status(500).json({
                 message: "Could not load student"
             });
+            
         }
     }
 );

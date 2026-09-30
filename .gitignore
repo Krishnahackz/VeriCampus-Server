@@ -1,0 +1,24 @@
+# Environment / secrets
+.env
+server/.env
+*.env
+
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Runtime uploads (student photos should NOT be committed)
+uploads/
+server/uploads/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local test files
+*.local
